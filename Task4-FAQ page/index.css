@@ -1,0 +1,46 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#FAQpage {
+	width: 50%;
+	height: 60%;
+	border: 2px solid rgb(204, 225, 259);
+}
+
+.question {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 10px;
+	border: 1px solid rgb(204, 225, 259);
+	border-radius: 10px;
+}
+
+#questionBody {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.button {
+	position: relative;
+	border-radius: 180px;
+	background-color: white;
+	border: 2px solid rgb(204, 225, 259);
+	font-size: 22px;
+	height: 30px;
+	width: 30px;
+	top: 15px;
+	right: 15px;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+.answer {
+	width: 90%;
+	margin-top: 15px;
+}
